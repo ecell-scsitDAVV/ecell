@@ -176,7 +176,7 @@ const TeamSection: React.FC = () => {
         
         <div className="flex flex-col md:flex-row md:justify-between md:items-end mb-12">
           <RevealAnimation delay={100}>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Meet The T</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Meet The Team</h2>
           </RevealAnimation>
           
           <RevealAnimation delay={200}>
