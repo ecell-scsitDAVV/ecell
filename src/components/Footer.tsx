@@ -20,6 +20,9 @@ const Footer: React.FC = () => {
             <a href="#" className="text-2xl max-w-[70px] h-auto font-bold tracking-tighter mb-6 inline-block">
               <img src="/images/Ecell_transparent_svg.png" alt="E-Cell Logo" />
             </a>
+            <p className="text-muted-foreground font-bold text-3xl mb-4">
+              E-Cell, SCSIT
+            </p>
             <p className="text-muted-foreground mb-6">
               Empowering students to innovate and lead through entrepreneurship.
             </p>

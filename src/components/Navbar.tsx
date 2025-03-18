@@ -47,14 +47,14 @@ const Navbar: React.FC = () => {
               href="#" 
               className="text-2xl font-bold tracking-tighter"
             >
-              <img src="/images/Ecell_transparent_svg.png" className="max-w-[30px] h-auto" alt="E-Cell Logo" />
+              <img src="/images/Ecell_transparent_svg.png" className="max-w-[50px] h-auto" alt="E-Cell Logo" />
             </a>
             <a 
               href="https://scs.dauniv.ac.in/" 
               className="text-2xl font-bold tracking-tighter"
               target="_blank"
             >
-              <img src="/images/SCSIT logo.png" className="max-w-[40px] h-auto mix-blend-multiply" alt="SCSIT Logo" />
+              <img src="/images/SCSIT logo.png" className="max-w-[60px] h-auto mix-blend-multiply rounded-full" alt="SCSIT Logo" />
             </a>
           </div>
 
