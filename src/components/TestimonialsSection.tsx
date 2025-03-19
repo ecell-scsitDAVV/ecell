@@ -14,6 +14,11 @@ const testimonials = [
     message: "Founding the E-Cell wasn't about starting yet another club, it was about building a launchpad for ideas, innovation, and growth of every member. This community is all about turning big dreams into reality. What began as an idea is now a launchpad for fearless innovators and game-changers 🚀 and I'm proud to have played a part in its journey. This is just the beginning. The future belongs to those who dare to build it! Remember, कायर भोगे दुःख सदा, वीर भोग्या वसुन्धरा 🪖⚔️",
     image: "/images/harsh.jpg"
   },
+  {
+    name: "Anand Kumar Payasi",
+    message: "Having worked with students from various backgrounds, I can say that the E-Cell of SCSIT, DAVV offers a unique platform for growth. As someone who grew up in the military, I understand the value of adaptability, leadership, and perseverance. These qualities are mirrored in the E-Cell, where students learn not just about business, but about working together as a team, overcoming challenges, and driving innovation. The dedication I’ve seen in the students here has been inspiring, and it’s been a rewarding experience to guide them in their entrepreneurial journeys.",
+    image: "/images/Anand Kumar Payasi.jpg"
+  },
 ];
 
 const TestimonialsSection: React.FC = () => {
