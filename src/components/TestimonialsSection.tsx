@@ -7,17 +7,20 @@ const testimonials = [
   {
     name: "Kashvi Jain",
     message: "E-Cell has been an incredible space where ideas turn into action. It empowers dreamers to become achievers, pushing each other forward and turning visions into reality. Glad to be part of this journey..!!",
-    image: "/images/Kashvi jain.jpg"
+    image: "/images/Kashvi jain.jpg",
+    position: "Former PR Manager, E-Cell"
   },
   {
     name: "Harsh Soni",
     message: "Founding the E-Cell wasn't about starting yet another club, it was about building a launchpad for ideas, innovation, and growth of every member. This community is all about turning big dreams into reality. What began as an idea is now a launchpad for fearless innovators and game-changers 🚀 and I'm proud to have played a part in its journey. This is just the beginning. The future belongs to those who dare to build it! Remember, कायर भोगे दुःख सदा, वीर भोग्या वसुन्धरा 🪖⚔️",
-    image: "/images/harsh.jpg"
+    image: "/images/harsh.jpg",
+    position: "Former Vice-President, E-Cell"
   },
   {
     name: "Anand Kumar Payasi",
     message: "Having worked with students from various backgrounds, I can say that the E-Cell of SCSIT, DAVV offers a unique platform for growth. As someone who grew up in the military, I understand the value of adaptability, leadership, and perseverance. These qualities are mirrored in the E-Cell, where students learn not just about business, but about working together as a team, overcoming challenges, and driving innovation. The dedication I’ve seen in the students here has been inspiring, and it’s been a rewarding experience to guide them in their entrepreneurial journeys.",
-    image: "/images/Anand Kumar Payasi.jpg"
+    image: "/images/Anand Kumar Payasi.jpg",
+    position: "Former Mentor, E-Cell"
   },
 ];
 
@@ -80,6 +83,7 @@ const TestimonialsSection: React.FC = () => {
                   />
                   <h3 className="font-semibold text-lg mb-2 text-black">{testimonial.name}</h3>
                   <p className="text-gray-600 text-center">{testimonial.message}</p>
+                  <p className="text-gray-900 text-center italic mt-4">{testimonial.position}</p>
                 </div>
               </div>
             </div>

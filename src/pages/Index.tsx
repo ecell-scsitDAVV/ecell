@@ -31,9 +31,9 @@ const Index: React.FC = () => {
       <InfoBulletin />
       <HODQuoteSection />
       <AboutSection />
-      <InitiativesSection />
-      <TeamSection />
       <EventGallery />
+      <TeamSection />
+      <InitiativesSection />
       <TestimonialsSection />
       <ContactSection />
       <Footer />
