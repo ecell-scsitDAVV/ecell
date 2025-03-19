@@ -14,11 +14,6 @@ const testimonials = [
     message: "Founding the E-Cell wasn't about staring yet another club, it was about building a launchpad for ideas, innovation, and growth of every member. This community is all about turning big dreams into reality. What began as an idea is now a launchpad for fearless innovators and game-changers 🚀 and I’m proud to have played a part in its journey.  This is just the beginning. The future belongs to those who dare to build it! Remember, कायर भोगे दुःख सदा, वीर भोग्या वसुन्धरा 🪖⚔️",
     image: "/images/harsh.jpg"
   },
-  {
-    name: "Alice Johnson",
-    message: "I couldn't be happier with the results!",
-    image: "/images/download.jpg"
-  }
 ];
 
 const TestimonialsSection: React.FC = () => {
