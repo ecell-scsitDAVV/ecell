@@ -140,7 +140,7 @@ const TeamSection: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <span className="inline-block py-1 px-3 mb-3 text-xs tracking-wider uppercase rounded-full bg-secondary text-primary font-medium">Our Team</span>
           <div className="flex flex-col md:flex-row md:justify-between md:items-end mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Meet The Leaders</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Meet The Team</h2>
             <p className="text-muted-foreground max-w-md mt-4 md:mt-0">
               Dedicated individuals committed to fostering innovation and entrepreneurship in our community.
             </p>
@@ -172,7 +172,7 @@ const TeamSection: React.FC = () => {
       <section id="team" className="py-24 px-4" style={{ backgroundColor: '#252c3b' }}>
         <div className="max-w-7xl mx-auto text-center">
           <span className="inline-block py-1 px-3 mb-3 text-xs tracking-wider uppercase rounded-full bg-secondary text-primary font-medium">Our Team</span>
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">Meet The Leaders</h2>
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">Meet The Team</h2>
           <p className="text-destructive">Error loading team members. Please try again later.</p>
         </div>
       </section>
@@ -208,7 +208,7 @@ const TeamSection: React.FC = () => {
         
         <div className="flex flex-col md:flex-row md:justify-between md:items-end mb-12">
           <RevealAnimation delay={100}>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Meet The Leaders</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Meet The Team</h2>
           </RevealAnimation>
           
           <RevealAnimation delay={200}>
