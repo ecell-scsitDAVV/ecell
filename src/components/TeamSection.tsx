@@ -77,6 +77,7 @@ const TeamSection: React.FC = () => {
   const [teamMembers, setTeamMembers] = useState<TeamMember[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth < 640); // Determine if the screen is mobile
 
   useEffect(() => {
     const fetchTeamMembers = async () => {
@@ -122,6 +123,15 @@ const TeamSection: React.FC = () => {
     };
 
     fetchTeamMembers();
+
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 640); // Update state on window resize
+    };
+
+    window.addEventListener('resize', handleResize); // Add event listener for resize
+    return () => {
+      window.removeEventListener('resize', handleResize); // Cleanup event listener
+    };
   }, []);
 
   if (isLoading) {
@@ -177,6 +187,7 @@ const TeamSection: React.FC = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    arrows: !isMobile, // Disable arrows in mobile mode
     responsive: [
       {
         breakpoint: 768, // Adjust for mobile devices
