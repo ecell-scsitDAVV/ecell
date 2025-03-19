@@ -33,6 +33,11 @@ const InitiativeCard: React.FC<InitiativeCardProps> = ({ title, description, ima
 const InitiativesSection: React.FC = () => {
   const initiatives = [
     {
+      title: "NED IIT GUWAHATI",
+      description: "Win a head to head Competition with IIT Guwahati students and get a chance to win exciting prizes.",
+      imageSrc: "/images/iit guwahati.png"
+    },
+    {
       title: "E-Summit",
       description: "Our annual flagship event bringing together entrepreneurs, investors, and students for networking, competitions, and inspiring talks.",
       imageSrc: "https://images.unsplash.com/photo-1559223607-a43c990c692c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -56,11 +61,6 @@ const InitiativesSection: React.FC = () => {
       title: "Mentorship Program",
       description: "Connecting students with experienced entrepreneurs and industry professionals for guidance and support.",
       imageSrc: "https://images.unsplash.com/photo-1558403194-611308249627?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-    },
-    {
-      title: "Innovation Lab",
-      description: "A creative space where students can work on their projects, collaborate with peers, and access resources to bring their ideas to life.",
-      imageSrc: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     }
   ];
 
