@@ -9,6 +9,7 @@ const Gallery = () => {
       <main className="pt-20">
         <EventGallery />
       </main>
+      <div className="classfsdfsdfs">fsdflkasdjflksdj </div>
     </div>
   );
 };
